@@ -1,10 +1,11 @@
+
 turtles-own [energy]
 
 
 
 
 
-to move-turtles; for practice;
+to move-turtles
   ask turtles [
     right random 360
     forward 1
@@ -71,6 +72,7 @@ to eat-grass
     [set label "" ]
   ]
 end
+
 
 
 
